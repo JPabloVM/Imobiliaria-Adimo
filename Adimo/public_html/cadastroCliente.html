@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro de Clientes</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel =" stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/open-iconic-bootstrap.css">
+        <link rel="stylesheet" href="css/caadastroCliente.css">
+    </head>
+    <body> 
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top"  style="background-color: #66F">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo da Adimo"></a>
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="sobre.html">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Ajuda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Perguntas Frequentes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Entre em contato</a>
+                </li>
+            </ul>        
+        </nav>
+        
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-10">FORMULÁRIO DE CADASTRO!</h1>
+                <p class="lead">Preencha os dados para entrarmos em contato, e ajudar na sua escolha.</p>
+                <form class="col-md-8 col-xl-6">
+                    <div class="row">
+                        <fieldset class="col-lg-11">
+                            <legend>Dados Pessoais:</legend>
+                            
+                            <div class="form-group">
+                                <label for="nome">Nome Completo:</label>
+                                <input type="text" class="form-control" id="nome" name="nome" autofocus required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">E-mail:</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="email@exemplo.com">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="cpf">CPF:</label>
+                                <input type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00"  required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="ddd">Telefone:</label>
+                                <input type="text" class="form-control" maxlength="15" id="ddd" name="ddd" placeholder="(00)0000-00000" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="endereco">Endereço:</label>
+                                <input type="text" class="form-control"  id="endereco" name="endereco" autofocus required>
+                            </div>
+                            
+                            <div class="form-group custom-control custom-checkbox">
+                                <input type="checkbox" 
+                                       class="custom-control-input" 
+                                       id="newsletter" value="sim" checked>
+                                <label class="custom-control-label" for="newsletter">
+                                    Quero receber newsletter da Adimo
+                                </label>
+                            </div>
+                            
+                        </fieldset>
+                        
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">
+                        <span class="oi-arrow1"></span>
+                        Enviar Dados
+                    </button>
+                    
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
