@@ -225,9 +225,11 @@ footer .container{
     transform: scale(1.2) rotate(-5deg)
 }
 
+.painel li:nth-child(n+7){
+    display: none
+}
 
-
-
-
-
+.painel-aberto li:nth-child(n+7){
+    display: inline-block
+}
 
