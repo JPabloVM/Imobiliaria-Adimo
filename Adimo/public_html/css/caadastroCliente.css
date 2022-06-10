@@ -22,7 +22,8 @@ body{
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
 }
 div.jumbotron-fluid{
-    background-image: url(../img/planodeFundo.png)
+    background-image: url(../img/planodeFundo.png);
+   
 }
 
 .containerr{
@@ -68,11 +69,12 @@ div.jumbotron-fluid{
 footer{
     background-color: #5F9EA0;
     clear: both;
-    padding: 20px 0;
+   
 }
 
 footer .container{
     position: relative;
+    
 }
 .container li{
     list-style-type: none;

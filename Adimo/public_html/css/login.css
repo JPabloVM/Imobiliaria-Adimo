@@ -1,8 +1,8 @@
             .login-usuario{
                 background-color: rgba(0,0,0,0.9);
                 position: absolute;
-                top: 45%;
-                left: 50%;
+                top: 65%;
+                left: 30%;
                 transform: translate(-50%,-50%);
                 padding-top: 70px;
                 padding-bottom: 70px;
@@ -14,8 +14,8 @@
             .registrar{
                 background-color: rgba(0,0,0,0.9);
                 position: absolute;
-                top: 85%;
-                left: 50%;
+                top: 65%;
+                left: 72%;
                 transform: translate(-50%,-50%);
                 padding-left: 105px;
                 padding-right: 105px;
