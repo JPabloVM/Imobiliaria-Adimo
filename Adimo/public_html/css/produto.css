@@ -220,6 +220,9 @@ footer .container{
     position: relative
 }
 
-
+.comprar a{
+    text-decoration: none;
+    color: #333;            
+}
 
 
