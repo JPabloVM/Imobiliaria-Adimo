@@ -1,9 +1,10 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Cadastro Cliente</title>
+        <title>Login</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel =" stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="css/login.css">
         <style>
             body{
@@ -14,6 +15,23 @@
         </style>
     </head>
     <body>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top"  style="background-color: #66F">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo da Adimo"></a>
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="sobre.html">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Ajuda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Perguntas Frequentes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Entre em contato</a>
+                </li>
+            </ul>        
+        </nav>
         <div class="login-usuario">
             <h1>Início de sessão</h1>
             <input type="text" placeholder="Nome">
@@ -21,11 +39,11 @@
             <input type="password" placeholder="Senha">
             <br><br>
             <p><a href="#">Esqueci minha senha</a></p>
-            <button class="botaoLO">Entrar</button>
+            <button class="botaoLO"><a href="Cliente.html">Entrar</a></button>
         </div>
         <div class="registrar">
             <h1>Não tem uma Conta?</h1>
-            <button class="botaoRE">Criar Conta</button>
+            <button class="botaoRE"><a href="cadastroCliente.html">Criar conta</a></button>
         </div>        
     </body>
 </html>
