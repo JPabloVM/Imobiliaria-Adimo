@@ -19,7 +19,8 @@ body{
 
 h1 {
     background-image: url(../img/sobre-background.jpg);
-    padding: 10px
+    padding: 10px;
+    text-align: center;
 }
 
 h2 {

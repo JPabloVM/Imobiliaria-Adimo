@@ -37,7 +37,7 @@ and open the template in the editor.
 
 body{
     color: #333;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .container{
@@ -46,49 +46,27 @@ body{
 }
 
 header{
-    position: relative
+    position: relative;
 }
 
 .menu-opcoes{
     position: absolute;
     bottom: 0;
-    right: 0
+    right: 0;
 }
 
-.busca, .menu-departamentos{
+.busca{
     background-color: #DCDCDC;
     font-weight: bold;
     text-transform: uppercase;
     
     margin-right: 10px;
     width: 230px;
-    float: left
+    float: left;
 }
 
-.menu-departamentos{
-    clear: left;
-    margin-top: 10px;
-    padding-bottom: 10px    
-}
-
-.destaque{
-    margin-top: 10px;
-}
-
-
-.busca h2, .busca form, .menu-departamentos h2{
+.busca h2, .busca form{
     margin: 10px
-}
-
-.menu-departamentos li{
-    background-color: white;
-    margin-bottom: 1px;
-    padding: 5px 10px
-}
-
-.menu-departamentos a{
-    color: #333;
-    text-decoration: none
 }
 
 .busca input[type=search] {
@@ -96,31 +74,26 @@ header{
 }
 
 .painel{
-    margin: 10px 0;
+    margin: 100px 0;
     padding: 10px;
-    width: 445px;
+    width: 600px;
     border-radius: 4px;
-    box-shadow: inset 1px 1px 4px #999
-}
-
-.novidades{
-    float: left;
+    box-shadow: inset 1px 1px 4px #999;
     background-color: #F5DCDC;
-    background: linear-gradient(#F5DCDC, #BEBEF4)
+    background: linear-gradient(#F5DCDC, #BEBEF4);
+    margin-left: 200px;
+   
 }
 
-.mais-vendidos{
-    float: right;
-    background-color: #DCDCF5;    
-    background: linear-gradient(#DCDCF5, #F4BEBE)
-}
+
 
 .painel li{
     display: inline-block;
     vertical-align: top;
     width: 140px;
     margin: 2px;
-    padding-bottom: 10px
+    padding-bottom: 10px;
+    
 }
 
 .painel h2{
@@ -128,14 +101,15 @@ header{
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 10px;
-    text-shadow: 3px 3px 2px rgba(255,255,255, 0.8)
+    text-shadow: 3px 3px 2px rgba(255,255,255, 0.8);
+    text-align: center;
 }
 
 .painel a{
     color: #333;
-    font-size: 14px;
+    font-size: 20px;
     text-align: center;
-    text-decoration: none
+    text-decoration: none;
 }
 
 footer{
@@ -151,7 +125,7 @@ footer .container{
 .social{
     position: absolute;
     top: 12px;
-    right: 0
+    right: 0;
 }
 
 .social li{
